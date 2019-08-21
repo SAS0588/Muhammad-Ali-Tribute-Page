@@ -1,0 +1,111 @@
+html{
+    /*
+        Setting to 10px makes converting to rem easier.
+        1 rem === 10px; 1.5 rem === 15px; etc.
+    */
+    font-size: 10px;
+}
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    background-color: white;
+    color: #CAD5E3;
+}
+#main{
+    margin: 7px 8px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: #00071A;
+    border-radius: 10px;
+}
+#title{
+    line-height: 20px;
+}
+h1{
+    font-size: 6.5rem;
+    margin-bottom: 0;
+    padding-top: 50px;
+    color: #D43A3A
+}
+h2{
+    font-size: 1.4rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#img-div{
+    padding: 20px;
+    border-radius: 10px;
+    height: auto;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 15px solid white;
+    border-bottom: 100px solid white;
+}
+#img-caption{
+    color: black;
+    position: relative;
+    bottom: 70px;
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+}
+#timeline-title{
+    font-size: 1.9rem;
+    color: #D43A3A;
+    border-bottom: 1px solid #D43A3A;
+    padding-bottom: 20px;
+}
+#timeline{
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#tribute-info{
+    margin: 2px;
+    padding: 10px;
+}
+li{
+    padding: 10px;
+    color: white;
+}
+#quote{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#link-to-wiki{
+    color: white;
+    border-top: 1px solid #D43A3A;
+}
+a{
+    
+    color: beige;
+}
+@media (max-width: 500px){
+    #main{
+        margin: 20px 50px;
+    }
+    #title{
+        line-height:40px;
+    }
+    #timeline-title{
+        font-size: 3.4rem;
+    }
+    #img-div{
+        padding: 0;
+    }
+    #quote{
+        font-size: 2.4rem;
+    }
+    #link-to-wiki{
+        font-size: 2.0rem;
+    }
+    
+}
+
